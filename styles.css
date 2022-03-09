@@ -1,5 +1,57 @@
 .photos{
-      justify-content: center;
       padding-left: 200px;
       border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+
+
+}
+header{
+      background-color: crimson;
+      border-radius: 15px;
+      color: antiquewhite;
+      width: 1500px;
+      padding-left: 50px;
+      text-align: left;
+            
+}
+h1 {
+     padding-left: 50px;
+     padding-top: 30px;
+     width: 500px;
+     border-radius: 15px;
+     margin-left: 200px;
+      color: gold;
+}
+header p {
+      padding-left: 10px;
+       
+ }
+body{
+      background-color: rgb(3, 9, 95);
+      
+}
+.photo2{
+      align-self: end;
+ }
+    
+.photo4{ 
+     align-self: flex-end;
+}
+.photo6{ 
+      align-self: flex-end;
+ }
+button{
+      width: 200px;
+      background-color: rgb(214, 201, 11);
+      justify-content: right;
+}
+input{
+      margin-bottom: 50px;
+
+}
+p{
+      color: white;
 }
